@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "tahto-dash-streamlit-ci-cd"
+version = "0.2.0"
+description = "RPA and Dashboard making"
+authors = ["venysssssssssss <shablaur7@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+pandas = "^2.2.0"
+plotly = "^5.18.0"
+streamlit = "^1.30.0"
+openpyxl = "^3.1.2"
+isort = "^5.13.2"
+blue = "^0.9.1"
+selenium = "^4.17.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
